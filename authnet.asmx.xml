@@ -2577,10 +2577,10 @@
   </wsdl:binding>
   <wsdl:service name="Service">
     <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
-      <soap:address location="https://api.authorize.net:443/soap/v1/Service.asmx" />
+      <soap:address location="https://api.authorize.net/soap/v1/Service.asmx" />
     </wsdl:port>
     <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
-      <soap12:address location="https://api.authorize.net:443/soap/v1/Service.asmx" />
+      <soap12:address location="https://api.authorize.net/soap/v1/Service.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
